@@ -1,19 +1,40 @@
-str = "Ruby"
+(1..30).each do |a|
 
-if str == "Ruby"
-    puts "Rubyと等しい"
-else
-  puts "等しくありません"
+ if a % 15 == 0
+  puts "FizzBuzz"
+ elsif a % 5 == 0
+  puts "Fizz"
+ elsif a % 3 == 0
+  puts "Buzz"
+ else
+  puts a
+ end
 end
 
 
-puts "50 or 100"
-input = gets.to_i
+for a in (1..30)
+ if a % 15 == 0
+  puts "FizzBuzz"
+ elsif a % 5 == 0
+  puts "Fizz"
+ elsif a % 3 == 0
+  puts "Buzz"
+ else
+  puts a
+ end
+end
 
-if input == 50
-  puts "a"
-elsif input == 100
-  puts "b"
-else
-  puts input
+a = 1
+
+while a <= 30
+ if a % 15 == 0
+  puts "FizzBuzz"
+ elsif a % 5 == 0
+  puts "Fizz"
+ elsif a % 3 == 0
+  puts "Buzz"
+ else
+  puts a
+ end
+ a = a+1
 end
