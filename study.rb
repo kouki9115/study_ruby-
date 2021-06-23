@@ -37,4 +37,7 @@ while a <= 30
   puts a
  end
  a = a+1
+ if a == 16
+  break
+ end
 end
