@@ -1,5 +1,13 @@
+subjects = ["国語","算数","理科","社会","英語"]
+puts subjects [2]
 
 
+talls = {"a"=>185, "b"=>170, "c"=>150}
+puts talls["a"]
+
+
+names = ["a","b"]
+puts names[0]
 
 
 
