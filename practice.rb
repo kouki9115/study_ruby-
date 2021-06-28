@@ -1,10 +1,15 @@
+
+
+
+
+
 a = 500
 b = 100
 
 if a < b
  puts "a < b"
 else
- puts "diff"
+ puts "#{a}#{b}"
 end
 
 i = 0
