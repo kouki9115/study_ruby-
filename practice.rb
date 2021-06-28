@@ -1,3 +1,12 @@
+a = 500
+b = 100
+
+if a < b
+ puts "a < b"
+else
+ puts "diff"
+end
+
 i = 0
 c = 1
 
