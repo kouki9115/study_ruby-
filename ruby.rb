@@ -1,3 +1,5 @@
+def xyz
+
 a = 300
 
 if 300 == a
@@ -7,3 +9,7 @@ else
 end
 
 puts a
+
+end
+
+puts xyz
