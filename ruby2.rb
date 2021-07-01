@@ -1,7 +1,11 @@
+def xyz(aaa)
 a = 20
 b = "xyz"
 c = [5,7,8]
 i = 1
+if aaa == "zzz"
+  puts "ff"
+end
 
 while i <= 5 do
  if a == b
@@ -36,7 +40,7 @@ a = a + q * 20
 
 end
 
+end
 
-
-
+puts xyz("zzz")
 
