@@ -29,7 +29,8 @@ q = q + 1
 a = a + q * 20
 
   if a % 120 == 0
-   puts "finish"
+   input = gets.to_s
+   puts input
    break
   end
 
