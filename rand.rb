@@ -9,11 +9,15 @@ end
 i = i + 1
 end
 
-for i in 1..5
- random = rand(20..25)
- puts random
-  if random == 25
-  puts "finish"
-  break
-  end
+def ran(a)
+ for i in 1..5
+  random = rand(20..25)
+  puts random
+   if random == 25
+   puts "finish #{a}"
+   break
+   end
+ end
 end
+
+puts ran("xyz")
