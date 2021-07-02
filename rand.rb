@@ -8,3 +8,12 @@ if random == 5
 end
 i = i + 1
 end
+
+for i in 1..5
+ random = rand(20..25)
+ puts random
+  if random == 25
+  puts "finish"
+  break
+  end
+end
