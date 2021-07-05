@@ -1,3 +1,4 @@
+def gambling
 puts "半丁ゲーム"
 puts "何回挑戦しますか？"
 count = gets.to_i
@@ -44,3 +45,7 @@ money3 = money * ccc
 
 summoney = money1 + money2 - money3
 puts summoney
+
+end
+
+puts gambling
