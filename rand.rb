@@ -10,7 +10,7 @@ i = i + 1
 end
 
 def ran(a)
- for i in 1..5
+ for i in 1..5 do
   random = rand(20..25)
   puts random
    if random == 25
