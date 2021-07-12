@@ -1,3 +1,4 @@
+puts "数字を入力して下さい"
 i = gets.to_i
 
 while i <= 10 do
@@ -17,4 +18,9 @@ else
 end
 
 i = i + 1
+end
+
+for i in 1..5 do
+ random = rand(1..5)
+  puts random
 end
