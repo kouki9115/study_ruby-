@@ -1,3 +1,25 @@
+
+for i in 1..15 do
+
+def aaa(num)
+
+if num % 15 == 0
+  puts "FizzBuzz"
+elsif num % 5 == 0
+  puts "Fizz"
+elsif num % 3 == 0
+  puts "Buzz"
+else
+  puts num
+end
+
+end
+puts "結果は"
+puts aaa(i)
+
+end
+
+
 puts "入力して下さい"
 input = gets.to_i
 
