@@ -1,5 +1,5 @@
 x = 1
-y = 3
+y = rand(2..5)
 z = 6
 
 for i in 1..5 do
