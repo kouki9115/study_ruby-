@@ -1,3 +1,7 @@
+c = 1
+
+while c <= 5 do
+
 puts "数字を入力して下さい"
 input = gets.to_i
 
@@ -14,3 +18,6 @@ def FizzBuzz(n)
 end
 
 puts FizzBuzz(input)
+
+c = c + 1
+end
