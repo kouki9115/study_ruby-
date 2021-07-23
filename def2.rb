@@ -7,4 +7,5 @@ def aaa(a)
  end
 end
 
-puts aaa(1)
+random = rand(1..5)
+puts aaa(random)
