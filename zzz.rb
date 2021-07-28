@@ -1,8 +1,6 @@
 a = 1
 b = 2
 
-i = 0
-
 for i in 1..3 do
  if a == 1
    puts "aaa"
