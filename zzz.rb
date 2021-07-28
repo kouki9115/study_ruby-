@@ -8,6 +8,7 @@ for i in 1..3 do
  elsif b == 2
    puts "bbb"
    b = b + 1
+   break
  else
    puts "zzz"
  end
