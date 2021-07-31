@@ -1,6 +1,8 @@
 
 
-def xyz
+def xyz(inp)
+ puts inp
+
  i = 1
  while i <= 2 do
   a = rand(1..2)
@@ -13,5 +15,7 @@ def xyz
  i = i + 1
  end
 end
+puts "数字を入力して下さい"
+input = gets.to_i
 
-puts xyz
+puts xyz(input)
