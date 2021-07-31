@@ -7,6 +7,13 @@ def xyz(inp)
   puts "#{a}は#{b}である"
  end
 
+ for i in 1..5 do
+  puts i
+  if i == 3
+   break
+  end
+ end
+
  random =rand(1..10)
  if inp % random == 0
   puts "あなたは幸運を自らの手で掴み取れます"
