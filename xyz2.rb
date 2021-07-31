@@ -1,6 +1,11 @@
 
 
 def xyz(inp)
+ zzz = {"a"=>1,"b"=>2}
+
+ zzz.each do |a,b|
+  puts "#{a}は#{b}である"
+ end
 
  random =rand(1..10)
  if inp % random == 0
