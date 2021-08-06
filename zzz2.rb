@@ -4,9 +4,9 @@ a = 3
 b = 1
 
 if a == 1
-  puts "a"
+  puts "aaa"
 elsif b == 1
-  puts "b"
+  puts "bbb"
 end
 
 end
