@@ -1,5 +1,6 @@
 def zzz(a)
 
+a = 2
 b = 1
 
 if a == 1
