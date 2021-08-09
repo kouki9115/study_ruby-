@@ -3,7 +3,7 @@ def zzz(a)
 a = 2
 b = rand(1..2)
 
-if a == 1
+if a == rand(1..2)
   puts "aaa"
 elsif b == 1
   puts "bbb"
