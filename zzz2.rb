@@ -1,7 +1,7 @@
 def zzz(a)
 
 a = 2
-b = 1
+b = rand(1..2)
 
 if a == 1
   puts "aaa"
