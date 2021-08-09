@@ -4,7 +4,7 @@ a = 2
 b = rand(1..2)
 i = 1
 
-while i <=5 do
+while i <= 5 do
 
  if a == rand(1..2)
    puts "aaa"
