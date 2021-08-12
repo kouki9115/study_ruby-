@@ -29,7 +29,7 @@ end
 
 rack = verygood * 2 + good - badd
 
-puts "人生における運を判定します"
+puts "人生におけるあなたの運を最終判定します"
 
 if rack == 5
   puts "かなりの幸運の持ち主"
