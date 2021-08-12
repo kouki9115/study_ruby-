@@ -1,4 +1,9 @@
-i = 1
+puts "運の良さを図ります"
+
+i = rand(1..10)
+verygood = 0
+good = 0
+badd = 0
 
 while i <= 10 do
 
@@ -7,13 +12,31 @@ while i <= 10 do
  c = rand(1..3)
 
  if a == b
-   puts "zzz"
+   puts "大当たり"
+   verygood = verygood + 1
  elsif b == c
-  puts "xyz"
+  puts "当たり"
+  good = good + 1
  else
-  puts "exit"
+  puts "はずれ"
+  badd = badd + 1
+
  end
 
  i = i + 1
 
 end
+
+rack = verygood * 2 + good - badd
+
+puts rack
+
+if rack == 5
+  puts "かなりの幸運の持ち主"
+elsif rack >=3
+  puts "幸運の持ち主"
+else
+ puts "平凡な方"
+end
+
+
