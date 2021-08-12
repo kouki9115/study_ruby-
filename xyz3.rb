@@ -9,5 +9,4 @@ elsif b == c
  puts "xyz"
 else
  puts "exit"
- break
 end
