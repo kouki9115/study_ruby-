@@ -4,7 +4,7 @@ def aaa(a)
 
 if a == 1
  puts "今日のあなたはラッキー"
-elsif a <= 4
+elsif a <= 5
  puts "今日のあなたは平凡"
 else
  puts "今日のあなたは残念"
