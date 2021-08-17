@@ -1,6 +1,10 @@
 def aaa(a)
  puts a
 
+if a == a
+ puts"xxx"
+end
+
 end
 
 random = rand(1..6)
