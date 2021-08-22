@@ -1,6 +1,6 @@
 i = 1
 
-z = "xyz",2,33,24,6
+z = "xyz",2,3,24,6
 
 while i <=5 do
 puts "a"
