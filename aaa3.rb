@@ -8,5 +8,5 @@ i = i + 1
 end
 
 z.each do |x|
-puts "#{x}はSになる"
+puts "#{x}はSSSになる"
 end
