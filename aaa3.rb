@@ -8,7 +8,11 @@ i = i + 1
 end
 
 z.each do |x|
-puts "#{x}はSSSになる"
+ if x == "xyz"
+   puts "#{x}はSSSになる"
+ else
+  puts x
+ end
 end
 
 if y == 333
