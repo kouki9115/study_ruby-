@@ -1,4 +1,5 @@
 i = 1
+n = "mm"
 x = 5
 y = 333
 z = "xyz",2,3,24,6
@@ -18,4 +19,8 @@ end
 
 if y == 111 * 3
  puts "aaa"
+end
+
+if n == "mm"
+ puts "nn"
 end
