@@ -1,8 +1,9 @@
 i = 1
+x = 5
 y = 333
 z = "xyz",2,3,24,6
 
-while i <=6 do
+while i <= x do
 puts "a"
 i = i + 1
 end
