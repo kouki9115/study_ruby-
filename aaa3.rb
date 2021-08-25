@@ -16,6 +16,6 @@ z.each do |x|
  end
 end
 
-if y == 333
+if y == 111 * 3
  puts "aaa"
 end
