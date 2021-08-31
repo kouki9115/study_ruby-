@@ -9,8 +9,10 @@ if a <= b
  puts "re try"
 elsif a <= c
  puts "Re try"
+elsif a >= d
+ puts "RRe try"
+end
 
 a = a + 1
-end
 
 end
