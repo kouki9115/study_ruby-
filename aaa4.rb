@@ -7,12 +7,14 @@ while a <= b do
 
 if a <= b
  puts "re try"
-elsif a <= c
+elsif b <= c
  puts "Re try"
-elsif a >= d
+elsif c <= d
  puts "RRe try"
 end
 
-a = a + 1
+a = a + 3
+b = b + 2
+c = c + 1
 
 end
