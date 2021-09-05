@@ -13,8 +13,8 @@ elsif c <= d
  puts "RRe try"
 end
 
-a = a + 3
-b = b + 2
-c = c + 1
+a = a + 4
+b = b + 3
+c = c + 2
 
 end
